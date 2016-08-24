@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi,width=device-width,initial-scale=1,user-scalable=no" />
+    <meta name="author" content="zhu-yongqiang">
+	<title>输入大比拼，速度我最快</title>
+    <!-- build:css css/index.css?d=@@timestamp -->
+	<link rel="shortcut icon" href="http://www.xunfei.cn/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- endbuild -->
+</head>
+<body ontouchstart="">
+    <div id="main">
+        <header>
+    	    <img src="img/logo.png">
+        </header>
+        <div id="video_area">
+            <video id="video" src="img/video/video.mp4" controls poster="img/banner.jpg" >
+                 您的浏览器不支持此video，请升级浏览器
+            </video>
+        </div>
+        <div id="content">
+    	    <img src="img/title.png">
+    	    <p id="first_p">点击"开始"按钮后,通过语音输入屏幕上方提示框中的</p>
+    	    <p id="second_p">规定文字,10秒钟看你能输多少字.</p>
+        </div>
+        <div id="my_bt">
+    	    <img src="img/GIF.gif" id="gif">
+        </div>
+        <div id="game">
+            <img src="img/bj4.png">
+            <span id="number">10</span>
+    	    <div class="words">
+    		    <p>请语音输入：北京时间8月15日，里约奥运会男子百米决赛中，牙买加闪电博尔特再次卫冕，创造历史，成为奥运百米3连冠第一人！这就是奥利匹克，英雄的狂欢。为博尔特欢呼，为每一位奥运英雄欢呼。</p>
+    		    <p></p>
+    	    </div>
+            <div id="input">
+    	        <input type="text" id="time" placeholder="点击讯飞输入法的麦克风说出上面的内容"/>
+                <div id="game_icon">
+    	            <img src="img/ic-arrows-up.png">
+    	        </div>
+            </div>
+    	    <div id="result">
+    	        <p id="result_p"></p>
+    		    <img src="img/ic-arrows-up.png" id="result_icon">
+    	    </div>
+        </div>
+        <div id="share">
+            <div id="share_area">
+            <img src="img/Shut-down.png" id="shut">
+                <div id="share1">
+                    <span id="share_text">点击右上角分享到qq空间</span>
+                    <img src="img/arrows.png">
+    	        </div>
+                <img src="img/gold.png" id="result_bj">
+                <div id="result_text">
+            	    <p>你的输入速度是<span id="in_numbers">一秒钟10个字</span></p>
+            	    <p>已经超越了<span id="in_bfb">99%</span>的用户</p>
+                </div>
+                <div id="share2">
+                    <div id="pyq_pic">
+                        <img src="img/weixin.png">
+                        <p>朋友圈</p>
+                    </div>
+                    <div id="qq_pic">	
+    	                <img src="img/qq.png">
+    	                <p>QQ空间</p>
+    	            </div>
+    	            <div id="weibo_pic">
+    	                <img src="img/weibo.png">
+    	                <p>新浪微博</p>
+    	            </div>
+    	        </div>
+            </div>
+        </div>
+        <!-- build:js js/index.js?d=@@timestamp -->
+        <script src="js/config.js"></script>
+        <script src="js/platform.js"></script>
+        <script src="js/base.js"></script>
+        <script src="js/Share.js"></script>
+        <script src="js/index.js"></script>
+        <!-- endbuild -->
+
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?55f4aef8a2a06ab6508994029ceffb5d";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </div>
+</body>
+</html>
